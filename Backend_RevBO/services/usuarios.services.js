@@ -12,7 +12,9 @@ class UsuarioService {
   static async createUsuario(usuario) {
     return await Usuario.create({
       nombre: usuario.nombre,
-      biografia: usuario.biografia,
+      apellido: usuario.apellido,
+      email: usuario.email,
+      password: usuario.password,
     });
   }
 
@@ -23,7 +25,9 @@ class UsuarioService {
 
     return instance.update({
       nombre: usuario.nombre,
-      biografia: usuario.biografia
+      apellido: usuario.apellido,
+      email: usuario.email,
+      password: usuario.password,
     });
   }
 
