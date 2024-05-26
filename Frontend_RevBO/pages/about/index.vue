@@ -14,6 +14,6 @@ import seccion1 from '../index/components/seccion1.vue';
 import images from '../index/components/images.vue';
 import appBar from '../index/components/appBar.vue';
 import carrousel from './components/carrousel.vue';
-import footer from '../index/components/footer1.vue';
-import Footer1 from '../index/components/footer1.vue';
+import footer from '../index/components/footer.vue';
+import Footer1 from '../index/components/footer.vue';
 </script>
