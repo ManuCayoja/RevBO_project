@@ -1,4 +1,4 @@
-const Usuario = require("../models").usuarios;
+const Usuario = require("../models").usuario;
 
 class UsuarioService {
   static async getUsuarios(params) {

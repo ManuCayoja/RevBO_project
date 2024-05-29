@@ -13,6 +13,7 @@ class EmpresaService {
     return await Empresa.create({
       nombre: empresa.nombre,
       direccion: empresa.direccion,
+      descripcion: empresa.descripcion,
       latitud: empresa.latitud,
       longitud: empresa.longitud,
       fk_categoria: empresa.fk_categoria,
