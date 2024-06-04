@@ -1,6 +1,8 @@
 <template>
     <center>
         <v-autocomplete
+        clearable
+        v-model="search"
               :items="items"
               class="mx-auto"
               density="comfortable"
@@ -13,18 +15,19 @@
               item-props
               rounded
             ></v-autocomplete>
-            <v-btn rounded="" style="background-color: rgba(45, 214, 251, 0.5);" prepend-icon="mdi-magnify">Buscar</v-btn>
+            <v-btn rounded="" style="background-color: rgba(45, 214, 251, 0.5);" prepend-icon="mdi-magnify" @click="buscar">Buscar</v-btn>
     </center>
 </template>
 
   <script>
     export default {
       data: () => ({
+        search:"",
         dialog: false,
         items: [
           {
             prependIcon: 'mdi-clock-outline',
-            title: 'Restaurantes',
+            title: 'Restaurante',
           },
           {
             prependIcon: 'mdi-clock-outline',
@@ -36,13 +39,19 @@
           },
           {
             prependIcon: 'mdi-clock-outline',
-            title: 'Electronicos',
+            title: 'Supermercado',
           },
           {
             prependIcon: 'mdi-clock-outline',
-            title: 'Transpote',
+            title: 'Hotel',
           },
         ],
       }),
+      methods: {
+        buscar() {
+          console.log("dfasdfsadfsdfasdf")
+          this.$router.push({ path: `/empresas`, query: { search: this.search } })
+        }
+      }
     }
   </script>

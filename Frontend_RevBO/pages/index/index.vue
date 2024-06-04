@@ -10,7 +10,6 @@
 
 <script setup>
 import appBar from './components/appBar.vue';
-import footer from './components/footer.vue';
 import search from './components/search.vue';
 import Table_cat from './components/table_cat.vue';
 </script>
