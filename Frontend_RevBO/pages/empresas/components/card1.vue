@@ -1,8 +1,12 @@
 <template>
+<div >
+  <v-hover v-slot="{ isHovering, props }">
           <v-card
-            class="mx-auto;"
-            width="400"
+            class="mx-auto"
+            width="350"
             rounded="lg"
+            v-bind="props"
+            :elevation="isHovering ? 24 : 1"
           >
             <v-img
               height="200px"
@@ -24,6 +28,9 @@
               <v-spacer></v-spacer>
             </v-card-actions>
           </v-card>
+        </v-hover>
+</div>
+
 
 </template>
 <script setup>

@@ -2,8 +2,8 @@
     <appBar></appBar>
 
     <v-main>
-      <br><div class="d-flex flex-wrap">
-        <card1 v-for="item in filtrado" :item="item" class="ma-3"></card1>
+      <br><div class="d-flex justify-center flex-wrap">
+        <card1  v-for="item in filtrado" :item="item" class="ma-1 pa-1"></card1>
     </div>
     </v-main>
   </template>
@@ -43,7 +43,7 @@
     },
     {
       titulo: "Pollos Copacabana",
-      image: "https://debolivia.site/wp-content/uploads/classified-listing/2021/06/pollos-copacabana-jun-2-logo-.jpg.webp",
+      image: "https://negociolatin.com/wp-content/uploads/pollos-copacabana-7.jpg",
       path: "/empresas/elements/pollos-copacabana",
       categoria: "restaurantes"
     },
