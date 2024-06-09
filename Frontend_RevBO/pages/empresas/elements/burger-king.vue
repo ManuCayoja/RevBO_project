@@ -1,5 +1,6 @@
 <template>
   <appBar></appBar>
+  
 </template>
 
 <script setup>
