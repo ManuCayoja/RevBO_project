@@ -143,7 +143,7 @@ export default {
   display: flex;
   padding: 20px;
   margin-top: 60px;
-  background-color: #efefef;
+  background-color: #ffffff;
   height: 100%;
 }
 
@@ -159,7 +159,7 @@ export default {
   margin-left: 5px;
   margin-right: 5px;
   padding: 30px;
-  background-color: #efefef;
+  background-color: #ffffff;
   border-radius: 10px;
   width: 750px;
 }

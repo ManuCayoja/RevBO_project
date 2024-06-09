@@ -1,6 +1,5 @@
 <template>
     <appBar></appBar>
-
     <v-main>
       <br><div class="d-flex justify-center flex-wrap">
         <card1  v-for="item in filtrado" :item="item" class="ma-1 pa-1"></card1>
