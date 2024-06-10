@@ -69,7 +69,43 @@
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Logotipo_de_BoA.svg/2560px-Logotipo_de_BoA.svg.png",
       path: "/empresas/elements/boa",
       categoria: "transporte"
-    }    
+    },
+    {
+      titulo: "Radioshack",
+      image: "https://media.informabtl.com/wp-content/uploads/2015/02/Radio-Shak-3.png",
+      path: "/empresas/elements/radioshack",
+      categoria: "electrónicos"
+    },
+    {
+      titulo: "Farmacias Chávez",
+      image: "https://scontent.flpb2-2.fna.fbcdn.net/v/t39.30808-6/288131666_5152367421513190_7345227237005028619_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=5f2048&_nc_ohc=v4mzENkvSRoQ7kNvgEujSY9&_nc_ht=scontent.flpb2-2.fna&oh=00_AYBcndmBjZENF8E1EuXvisq4FOMPQ3JEhAg6VAc0VKF6tQ&oe=666D3C5C",
+      path: "/empresas/elements/farmacias-chavez",
+      categoria: "farmacias"
+    },
+    {
+      titulo: "Megacenter",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScbUKGhtAgnkyNSJyXryCnvPS24H0p1Ld5Vg&s",
+      path: "/empresas/elements/megacenter",
+      categoria: "entretenimiento"
+    },
+    {
+      titulo: "Munditoys",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc4SI7N5xtJwZO9fqCGl6CCUlcfeKoxaTu-w&s",
+      path: "/empresas/elements/munditoys",
+      categoria: "jugueteria"
+    },
+    {
+      titulo: "Banco Bisa",
+      image: "https://www.grupobisa.com/assets/IconosEmpresas/BancoBisa.png",
+      path: "/empresas/elements/banco-bisa",
+      categoria: "Bancos"
+    },
+    {
+      titulo: "Viajes Travelero",
+      image: "https://scontent.flpb2-2.fna.fbcdn.net/v/t39.30808-6/360086522_314685647556118_1181850316933620546_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=5f2048&_nc_ohc=LrM7fVd64AgQ7kNvgEIHy1w&_nc_ht=scontent.flpb2-2.fna&oh=00_AYCMp9x8b-u9syJDCsbetsDcgJCSwhGkbo3dFNzc_wUcVQ&oe=666D57F6",
+      path: "/empresas/elements/viajes-travelero",
+      categoria: "viajes"
+    }
   ])
   
   </script>

@@ -7,7 +7,6 @@
       </span>
     </v-app-bar-title>
     <v-btn text @click="goTo('/empresas?search=')">Empresas</v-btn>
-    <v-btn text  @click="goTo('/empresas')">Favoritos</v-btn>
     <v-btn text @click="goTo('/about')">About</v-btn>
     <v-btn text @click="showSearchDialog = true" prepend-icon="mdi-magnify">Buscar</v-btn>
     <v-btn rounded="xl" size="large" @click="goTo('/sign-in')" style="background-color: rgb(45, 214, 251); color: rgb(34, 34, 34); font-size: 13px; font-weight: bolder;">Acceder</v-btn>

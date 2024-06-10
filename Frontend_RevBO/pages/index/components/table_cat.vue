@@ -17,7 +17,7 @@
         </v-btn>
       </v-col>
       <v-col>
-        <v-btn text @click="goTo('Jugueterías')" class="pa-2 ma-2" style="width: 170px; background-color: rgba(45, 214, 251, 0.40);">
+        <v-btn text @click="goTo('jugueteria')" class="pa-2 ma-2" style="width: 170px; background-color: rgba(45, 214, 251, 0.40);">
           Jugueterías
         </v-btn>
       </v-col>
@@ -61,8 +61,8 @@
         </v-btn>
       </v-col>
       <v-col>
-        <v-btn text @click="goTo('Educación')" class="pa-2 ma-2" style="width: 170px; background-color: rgba(45, 214, 251, 0.40);">
-          Educación
+        <v-btn text @click="goTo('viajes')" class="pa-2 ma-2" style="width: 170px; background-color: rgba(45, 214, 251, 0.40);">
+          Agencias de viaje
         </v-btn>
       </v-col>
     </v-row>
