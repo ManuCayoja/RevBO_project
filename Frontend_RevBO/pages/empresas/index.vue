@@ -54,7 +54,7 @@
     },
     {
       titulo: "UFC Gym",
-      image: "https://scontent.flpb2-2.fna.fbcdn.net/v/t39.30808-6/414916865_387423693808199_2130526662853184669_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=frxyniga77kQ7kNvgGsAlMI&_nc_ht=scontent.flpb2-2.fna&oh=00_AYDV3RsP2nJJSjShNvrIXAnV--oPAFq0RfbI-ldg8jYtSA&oe=66656B69",
+      image: "https://scontent.flpb2-2.fna.fbcdn.net/v/t39.30808-6/414916865_387423693808199_2130526662853184669_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=pm9QfSHeIr0Q7kNvgEBWw01&_nc_ht=scontent.flpb2-2.fna&oh=00_AYC6tomzeOYD2x4Wv8DJBhSfZf4AXhxot8_jrdTK4OA5eA&oe=666D5469",
       path: "/empresas/elements/ufc-gym",
       categoria: "gimnacios"
     },
@@ -89,6 +89,12 @@
       categoria: "entretenimiento"
     },
     {
+      titulo: "Multicine",
+      image: "https://scontent.flpb2-1.fna.fbcdn.net/v/t31.18172-8/175236_10150102579914389_8387250_o.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=lwIKKH97v6oQ7kNvgEUkUCb&_nc_ht=scontent.flpb2-1.fna&oh=00_AYDFhW01P1o_9qYAELSijOAywZhoXVPJOrEahdpN_iA_rA&oe=668EF334",
+      path: "/empresas/elements/multicine",
+      categoria: "entretenimiento"
+    },
+    {
       titulo: "Munditoys",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc4SI7N5xtJwZO9fqCGl6CCUlcfeKoxaTu-w&s",
       path: "/empresas/elements/munditoys",
@@ -98,6 +104,12 @@
       titulo: "Banco Bisa",
       image: "https://www.grupobisa.com/assets/IconosEmpresas/BancoBisa.png",
       path: "/empresas/elements/banco-bisa",
+      categoria: "Bancos"
+    },
+    {
+      titulo: "BNB",
+      image: "https://brandemia.org/sites/default/files/inline/images/bnb_logo_portada.jpg",
+      path: "/empresas/elements/bnb",
       categoria: "Bancos"
     },
     {

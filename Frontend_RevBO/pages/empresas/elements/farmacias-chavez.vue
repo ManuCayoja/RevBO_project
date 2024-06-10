@@ -4,13 +4,13 @@
       <div class="content-container">
         <div class="logo-container">
           <div class="logo">
-            <img src="https://i.pinimg.com/originals/47/ae/4e/47ae4e37ac8af51ac1e07051a5e3ffa2.png">
+            <img src="https://scontent.flpb2-2.fna.fbcdn.net/v/t39.30808-6/288131666_5152367421513190_7345227237005028619_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=5f2048&_nc_ohc=v4mzENkvSRoQ7kNvgEujSY9&_nc_ht=scontent.flpb2-2.fna&oh=00_AYBcndmBjZENF8E1EuXvisq4FOMPQ3JEhAg6VAc0VKF6tQ&oe=666D3C5C">
           </div>
           <div class="empresa">
-            <h2>Radioshack</h2>
+            <h2>Farmacias Chavez</h2>
             <p>
-              <span class="reviews">5,620 reviews</span>
-              <span class="porcentaje">1.6/5</span>
+              <span class="reviews">3,620 reviews</span>
+              <span class="porcentaje">4.6/5</span>
             </p>
             <p class="stars">
               <div class="text-center">
@@ -24,8 +24,8 @@
           </div>
         </div>
         <div class="calificaciones">
-          <h3>Reseñas - 1.6 <span class="star">★</span></h3>
-          <p class="total-reviews">5,620 total</p>
+          <h3>Reseñas - 4.6 <span class="star">★</span></h3>
+          <p class="total-reviews">3,620 total</p>
           <div
             v-for="(percentage, index) in ratingsDistribution"
             :key="index"
@@ -90,9 +90,9 @@
       const formStars = ref(0);
       const newReview = ref('');
       const reviews = ref([
-        { name: 'Paola Medrano', stars: 4, comment: 'Muy buen servicio', likes: 18, dislikes: 4 }
+        { name: 'Paola Medrano', stars: 5, comment: 'Muy buen servicio!', likes: 16, dislikes: 3 }
       ]);
-      const ratingsDistribution = ref([2, 6, 8, 3, 81]);
+      const ratingsDistribution = ref([87, 6, 3, 2, 2]);
       const reviewerName = ref('');
   
       const submitReview = () => {
@@ -132,7 +132,7 @@
     data() {
       return {
         rating: 0,
-        ratingOfi: 1.6,
+        ratingOfi: 4.6,
       };
     }
   }
@@ -176,6 +176,7 @@
     max-width: 100%;
     max-height: 100%;
     border-radius: 5px;
+    margin-left: 10px
   }
   
   .empresa h2 {
